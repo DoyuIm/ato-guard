@@ -49,12 +49,3 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
 
 LLM 요약을 쓰려면 `GEMINI_API_KEY`를 설정합니다(무료 티어 가능, 모델은 `GEMINI_MODEL`로 변경). 키가 없으면 템플릿 요약을 씁니다.
-
-## 로드맵
-
-- [x] 0~3단계 PoC: 합성 로그, 규칙, 이상 탐지, 위험도 대응, 섀도 모드 평가
-- [ ] 로그인 이후 행동 특징(세션 내 행동 순서, 민감 행동까지 걸린 시간)
-- [ ] 라벨이 쌓였을 때를 가정한 지도학습(XGBoost) 비교
-- [ ] FastAPI 실시간 점수 API
-- [ ] Streamlit 운영 대시보드
-- [ ] 봇 가입·어뷰징 탐지로 범위 확장
